@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+    .label {
+        display: block;
+    }
+        </style>
+    
+</head>
+<body><h1>Formulario de Datos Personales</h1>
+        <form>
+        <label class="label" for="nombre">Nombre y Apellido
+                <input id="nombre" type="text" name="Nombre y Apellido" value="" placeholder="Ej. Juan Perez">
+        </label>
+        <label class="label">Fecha de nacimiento
+                <input type="date" name="Fecha de nacimiento" value="" placeholder="01/01/1900">
+        </label>
+        <label class="label">Documento de Identidad
+            <input type="number" maxlength="8" name="DNI" value="" placeholder="12345678">
+        </label>
+        <label class="label">Email
+            <input type="email" name="email" value="" placeholder="123@ejemplo.com">
+        </label>
+        <label class="label">Pais
+            <select>
+                <option>Argentina</option>
+                <option>Chile</option>
+                <option>Uruguay</option>
+                <option>Brasil</option>
+            </select>
+        </label>
+        <label class="label">Direccion
+            <input type="text" name="direccion" value="" placeholder="Calle Falsa 123">
+        </label>
+        <label class="label">Telefono
+            <input type="number" name="telefono" value="" placeholder="011-12345678">
+        </label>
+        <label class="label">Consulta
+            <textarea maxlength="100" placeholder="escriba su consulta aqui"></textarea>
+        </label>
+        <button class="label" type="submit">Enviar</button>
+        </form>
+</body>
+</html>
