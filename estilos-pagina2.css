@@ -1,5 +1,17 @@
 .border-parrafo {
     border: 1px solid black;
-    margin-top: 1px;
+    margin-top: 2px;
     padding: 25px;
+}
+.display1 {display: inline-block;
+           text-align: left;
+           width: 25%;
+           border: 2px solid green;
+           vertical-align: top
+}
+.display2 {display: inline-block;
+            text-align: right;
+            width: 45%;
+            border: 2px solid red;
+            vertical-align: bottom
 }
