@@ -4,14 +4,29 @@
     padding: 25px;
 }
 .display1 {display: inline-block;
-           text-align: left;
-           width: 25%;
+           text-align: center;
+           width: calc(50% - 2px);
            border: 2px solid green;
-           vertical-align: top
+           vertical-align: top;
+           box-sizing: border-box;
+           padding-bottom: 55px
 }
 .display2 {display: inline-block;
-            text-align: right;
-            width: 45%;
+            text-align: center;
+            width: calc(50% - 2px);
             border: 2px solid red;
-            vertical-align: bottom
+            vertical-align: bottom;
+            box-sizing: border-box;
+}
+.bordes {border: 10px solid pink;
+        width: 150px;
+        height: 150px;
+        border-radius: 100px;
+        text-align: center;
+        line-height: 150px;
+        background-color: lightblue;
+        font-size: 28px;
+
+
+
 }
